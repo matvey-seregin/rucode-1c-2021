@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d639dc8c-67c1-4119-aff1-208db82fdb2a">
+  <name>УчетЧековСотрудниковМобильноеПриложение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет чеков сотрудников мобильное приложение</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="8f639dde-f4a2-49ec-8493-862056d4553e"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="ffaa2a02-a9f3-4a9a-be2b-aa3d4c33ecbf"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="f15104d7-27b3-48d1-a883-7898aeb6e893"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="d8f6c2a0-414e-45cb-a782-d088e319f22c"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="26491e43-b024-419f-9f2e-6b7db754d30d"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="1e38d0c8-b6df-4519-b74b-9a8b1de13d10"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="bebc6783-c532-40af-9cc2-c27a894d69c0"/>
+  <configurationExtensionCompatibilityMode>8.3.17</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>MobileDevice</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Серегин Матвей</vendor>
+  <version>1.0.0.1</version>
+  <requiredMobileApplicationPermissions>
+    <permission>AllowOSBackup</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.16</compatibilityMode>
+  <languages uuid="7bab29a3-a30b-4f94-a125-e78201cd1913">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <commonModules>CommonModule.РаботаССервером</commonModules>
+  <constants>Constant.ЛимитНаМесяц</constants>
+  <constants>Constant.ИмяПользователя</constants>
+  <constants>Constant.Пароль</constants>
+  <documents>Document.ЧекЗаПитание</documents>
+  <reports>Report.ЗатратыНаПитание</reports>
+  <reports>Report.ИтоговаяСуммаЗаПериод</reports>
+</mdclass:Configuration>
