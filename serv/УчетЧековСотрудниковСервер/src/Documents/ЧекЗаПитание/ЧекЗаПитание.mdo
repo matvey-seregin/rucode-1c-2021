@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff4bb361-63a8-4799-b1d0-5020fa214893">
+  <producedTypes>
+    <objectType typeId="e3d16c29-161f-4e51-b6bf-48215c378115" valueTypeId="57571ef9-86d5-4abe-8b18-cd433bb794c7"/>
+    <refType typeId="e05fd0af-5b2a-4e33-9248-1df0c8b7851f" valueTypeId="1223143d-c861-4bca-9270-fe83bdc72ec7"/>
+    <selectionType typeId="67d5913c-1dfc-426a-aa51-456b94bb664b" valueTypeId="1decc672-40aa-4be9-89ce-c0be0b528bd6"/>
+    <listType typeId="a8971b61-22a1-4035-a33c-01e0c098acb7" valueTypeId="d14b85f6-6cd2-4460-a1aa-758dee1b12ef"/>
+    <managerType typeId="381c8a5b-c819-4c83-99d4-b032018707c6" valueTypeId="abfaabe8-c7b2-43bf-9ff6-f3be22318a24"/>
+  </producedTypes>
+  <name>ЧекЗаПитание</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чек за питание</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЧекЗаПитание.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Чеки за питание</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ЧекЗаПитание.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ЗатратыНаПитание</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="1a918060-2911-4169-a614-30c9612d5dd5">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="158d6f1c-0a4a-4822-9b9b-a93ccf045296">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b3a27eb7-4776-4aeb-93c4-99c20819535e">
+    <name>ФотоЧека</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фото чека</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="95b490c9-06cd-4920-b053-3de7c26905eb">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="171ad32c-1ece-46ab-a312-5aa48a529b7a">
+  <name>MobileApplication</name>
+  <synonym>
+    <key>ru</key>
+    <value>Mobile application</value>
+  </synonym>
+  <namespace>http://1c.ru/mobile-demo</namespace>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.1/data/core</value>
+  </xdtoPackages>
+  <descriptorFileName>MobileApplication.1cws</descriptorFileName>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="efe5339d-5a58-45b6-9b51-14e648f00a2b">
+    <name>PostInvoice</name>
+    <synonym>
+      <key>ru</key>
+      <value>Post invoice</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>PostInvoice</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="3a2994bb-d055-465e-81eb-af201735a246">
+      <name>Date</name>
+      <synonym>
+        <key>ru</key>
+        <value>Date</value>
+      </synonym>
+      <xdtoValueType>
+        <name>dateTime</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="a21230a7-9d3b-40a2-ba2a-b91fda787bd4">
+      <name>Foto</name>
+      <synonym>
+        <key>ru</key>
+        <value>Foto</value>
+      </synonym>
+      <xdtoValueType>
+        <name>ValueStorage</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+</mdclass:WebService>

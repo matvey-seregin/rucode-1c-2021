@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e56cd5b0-4aec-4bce-9bcd-81f31c7b9196">
+  <producedTypes>
+    <objectType typeId="67ec314b-48a9-4c92-b727-6d26646ba359" valueTypeId="b439f387-2863-4955-8266-44c02e2b2f1b"/>
+    <refType typeId="7729025e-dda4-4885-ba58-028164e14fcf" valueTypeId="9402cbe9-16c9-467a-a674-c9bede90690b"/>
+    <selectionType typeId="46d96daa-9a26-48a9-ae12-d3da0d0036e1" valueTypeId="5805c3ff-6ba6-4277-affe-506cc7c2add7"/>
+    <listType typeId="a2f5c45f-bdbd-46bb-88b8-240a391486dd" valueTypeId="21b88bf6-6754-4a40-8954-30db5aa245ed"/>
+    <managerType typeId="80a91c59-adce-4e40-a43f-e32fb0782e99" valueTypeId="c4a5ef8d-4b30-47ff-8af5-d7929f3a474b"/>
+  </producedTypes>
+  <name>Сотрудники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сотрудники</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Сотрудники.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Сотрудники.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Сотрудник</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="d7004744-f3fa-4be7-b44a-08c512f49deb">
+    <name>ИмяПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя пользователя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

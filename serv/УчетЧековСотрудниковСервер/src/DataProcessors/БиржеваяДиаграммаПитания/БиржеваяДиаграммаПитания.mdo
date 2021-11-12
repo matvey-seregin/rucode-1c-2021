@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7bfa1df5-79ce-4636-a447-98da38b724a6">
+  <producedTypes>
+    <objectType typeId="746f3912-b883-47dc-8473-7e6a3f75eae6" valueTypeId="c3740a1e-a817-4c09-b599-2539954c11e4"/>
+    <managerType typeId="686c6692-cc12-480b-84a5-0322f8a8e7e1" valueTypeId="98d7ef49-f49e-4b20-8aab-1a67809ca762"/>
+  </producedTypes>
+  <name>БиржеваяДиаграммаПитания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Биржевая диаграмма питания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.БиржеваяДиаграммаПитания.Form.Форма</defaultForm>
+  <forms uuid="4b5243cb-ac41-4c82-8546-51066c983473">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="ff60c432-e574-47b3-9141-66eeb7ae5524">
+    <name>ШаблонВебСтраницы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон веб страницы</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>
