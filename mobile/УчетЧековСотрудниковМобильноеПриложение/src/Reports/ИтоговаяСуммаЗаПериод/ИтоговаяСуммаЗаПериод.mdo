@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="503d2e7d-658a-418e-9838-03821a56bf84">
+  <producedTypes>
+    <objectType typeId="fe0bc89a-4eb2-4a0a-970c-323a3ce86f3d" valueTypeId="f840714c-2a41-4f3a-afd3-5d94ed77b070"/>
+    <managerType typeId="ceddc349-38fe-4025-8dc3-301d24b20a02" valueTypeId="05ae10d4-4356-4fa7-b06a-143732fed9ee"/>
+  </producedTypes>
+  <name>ИтоговаяСуммаЗаПериод</name>
+  <synonym>
+    <key>ru</key>
+    <value>Итоговая сумма за период</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ИтоговаяСуммаЗаПериод.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="b28c264c-ae00-4b5b-9b90-1d8004ea5164">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

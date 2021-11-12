@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62ac13df-dfb0-40be-82ec-bb8a2a619351">
+  <producedTypes>
+    <managerType typeId="86e721f1-1f0c-4576-8a8b-fb5aeb376d7e" valueTypeId="0948b9ec-5901-45f8-9381-8d55d8d964a5"/>
+    <valueManagerType typeId="6ccd7327-7aaf-4f60-b14e-85fae053675d" valueTypeId="8511e2c0-7cbf-4025-af18-ed95883b0961"/>
+    <valueKeyType typeId="26a6f561-dafe-478c-9f87-ae9680f828a5" valueTypeId="4a64afb7-f75b-4c36-838e-d1f0b1934313"/>
+  </producedTypes>
+  <name>ЛимитНаМесяц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лимит на месяц</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
